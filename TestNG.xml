@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cucumber_HRM" thread-count="2" parallel="tests" configfailurepolicy="continue">
+    <test name="Cucumber with TestNG Test" preserve-order="true" annotations="JDK">
+        <classes>
+            <class name="stepDefinitions.TestNgRunner"/>
+        </classes>
+    </test>
+</suite>
