@@ -10,6 +10,9 @@ import io.cucumber.testng.CucumberOptions;
                 "json:target/Report.json",
                 "junit:target/Report.xml"
                 },
+        publish = true,
+        monochrome = true,
+        dryRun = false,
         tags = "@Regression")
 
 public class TestNgRunner extends AbstractTestNGCucumberTests{
