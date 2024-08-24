@@ -6,9 +6,9 @@ import io.cucumber.testng.CucumberOptions;
                     glue = {"stepDefinitions"},
         plugin= {
                 "pretty",
-                "html:target/CucumberReports",
-                "json:target/Report.json",
-                "junit:target/Report.xml"
+                "html:target/HTML_Reports/CucumberReports",
+                "json:target/JSON_Reports/Report.json",
+                "junit:target/JUNIT_rReports/Report.xml"
                 },
         publish = true,
         monochrome = true,
