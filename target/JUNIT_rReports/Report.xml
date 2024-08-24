@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="55.101" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="feature to test HRM application" name="Login with valid credentials" time="31.946">
+<system-out><![CDATA[
+Given user is on Orange HRM application "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login".passed
+When user enters username as "Admin" and password as "admin123".............passed
+Then user should be able to login successfully and Home page is open........passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test HRM application" name="Login with Invalid credentials - Example #1.1" time="22.616">
+<system-out><![CDATA[
+Given user is on Orange HRM application "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login".passed
+When user enters username as "Admin123" and password as "admin123$".........passed
+Then user should be able to see the error Message "Invalid credentials".....passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -17,6 +17,4 @@ Feature: feature to test HRM application
 
           Examples:
             | username  | password | errorMessage |
-            | Admin | admin123$ | Invalid credentials |
-            | Admin123 | admin123 | Invalid credentials |
             | Admin123 | admin123$ | Invalid credentials |

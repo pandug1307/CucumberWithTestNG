@@ -8,9 +8,9 @@ import org.junit.runner.RunWith;
         glue={"stepDefinitions"},
         plugin= {
                 "pretty",
-                "html:target/CucumberReports",
-                "json:target/Report.json",
-                "junit:target/Report.xml"
+                "html:target/HTML_Reports/CucumberReports",
+                "json:target/JSON_Reports/Report.json",
+                "junit:target/JUNIT_rReports/Report.xml"
                 },
                 tags = "@Regression")
 
